@@ -2,7 +2,7 @@
 
 Kleines Python Helferskript, um eine Steuergerät zu simulieren, dass sich wie folgt verhält:
 
-Vrhalten:
-- Öffnet zu Anfang eine seriellen Schnittstelle
-- wartet bis es ein vorher definiertes steurzeichen(kette) über die offene schnittstelle einliest
-- und dann auf der offenen schnittstelle einen Block an Daten schreibt
+Verhalten:
+- Öffnet eine serielle Schnittstelle
+- wartet bis es ein vorher definiertes steurzeichen(kette) über die offene schnittstelle eingelesen wurde
+- schreibt danach auf der offenen schnittstelle einen Block an Daten. 
